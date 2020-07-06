@@ -1,0 +1,38 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Notes App",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilovaleksey/notes.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Aleksey Danilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilovaleksey/notes/issues"
+  },
+  "homepage": "https://github.com/danilovaleksey/notes#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.0.5",
+    "@types/webpack": "4.1.4",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.4.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
